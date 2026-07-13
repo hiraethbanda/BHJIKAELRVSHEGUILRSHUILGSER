@@ -20,8 +20,9 @@ body {
     align-items: center;
 }
 
-#alice {
+#gif {
     height: 25vh;
+    display: block;
 }
 
 #main {
