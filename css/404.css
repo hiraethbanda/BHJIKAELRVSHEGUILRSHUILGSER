@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(34, 25, 25);
+    color: rgb(184, 184, 184);
+    font-size: 18px;
+    overflow-y: hidden;
+}
+
+#main {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#borboleta {
+    color: rgb(255, 81, 81);
+}
+
+p {
+    text-align: center;
+    display: inline-block;
+    color: rgb(221, 133, 133);
+}
+
+a {
+    margin: 30px 0px 80px 0px;
+}
+
+a:link {
+    color: rgb(221, 133, 133);
+}
+
+a:visited {
+    color: rgb(221, 133, 133);
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}

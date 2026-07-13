@@ -1,0 +1,66 @@
+@font-face {
+    src: url(/css/0_Jetbrains\ Mono.ttf);
+    font-family: "Jetbrains Mono";
+}
+
+body {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    font-family: "Jetbrains Mono";
+    font-variant-ligatures: none;
+}
+
+#wrapper {
+    margin: 25px 0px 25px 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#userInputDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#userPrefix {
+    margin: 0px 10px 0px 10px;
+}
+
+#userInput {
+    font-family: "Jetbrains Mono";
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+
+    height: 30px;
+    width: 50%;
+    background-color: black;
+    border: none;
+    caret-color: transparent;
+}
+
+#answerDiv{
+    margin: 10px;
+}
+
+#caret {
+    position: absolute;
+    font-family: "Jetbrains Mono";
+    color: rgb(0, 255, 0);
+    font-size: 22px;
+    pointer-events: none;
+    animation: blink 1s step-end infinite;
+    display: none;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+input:focus {
+    outline: none;
+}

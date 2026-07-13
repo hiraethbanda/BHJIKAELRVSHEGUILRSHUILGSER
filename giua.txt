@@ -1,0 +1,45 @@
+alice: 
+  img com o link do lladd escondido na img. legenda vai ter uma frase de alice. a palavra faltando é a resposta
+Resposta: "diferente"
+
+a casa:
+  img da all saits church, daresbury, cheshire. legenda diz: "quem eu sou? onde estou?". 
+solucao: descobrir que esta em cheshire e saber que cheshire é o gato
+resposta: "gato"
+
+who am i:
+  img da borboleta gay. legenda tem uma frase que indica que a musica é who am i; "l.9" (linha 9 de who am i) e "joji" (em katakana). 
+solucao: ir ate a linha 9 de who am i, pesquisar por "slow dance joji", achar slow dancing in the dark, e ver a linha que é praticamente igual a de who am i.
+resposta: "idontwannaslowdance"
+
+meia noite:
+  img da lua como um relogio apontando pra meia noite. legenda: "e o que mais? 9 192 631 770". 
+solucao: pesquisar o numero no google e achar que é um segundo em relogio atomico. descobrir que o relogio tambem significa tempo e dar o tempo da musica meia noite em segundos.
+resposta: "quarentaetres"
+
+sunshine:
+  img de um circulo amarelo que contem "yt" se aumentar bem o brilho. video no yt de sunshine e ver o comentario do betys contendo: "92 23; Dimitri M; [alfa] [beta] [gamma].
+solucao: traduzir o 92 23 da tabela periodica para UV e perfceber que o UV + alfa beta gamma sao tipos de radiacao
+resposta: "radiacao"
+
+apov:
+  terminal
+
+seus olhos:
+  img do gerard way com os olhos claramente editados para serem castanhos. musica "the light behind your eyes" do mcr tocando. legenda: "., . . . _".
+solucao: perceber que os olhos sao muito nitidamente editados para serem castanhos, ir ate a linha de seus olhos que diz "castanhos", e colocar a palavra que esta na posicao do "_".
+resposta: "universo"
+
+rdc:
+  img da rainha de copas e uma outline da letra de rdc do yt music "souce: musixmatch". legenda: "1234567890". 
+solucao: pegar o numero de versos que a letra de rdc tem.
+resposta: "vinteequatro"
+
+1 - alice
+2 - rdc
+3 - seus olhos
+4 - a casa
+5 - who am i 
+6 - sunshine
+7 - meia noite
+8 - apov
