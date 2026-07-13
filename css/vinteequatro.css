@@ -11,7 +11,7 @@ body {
            rgba(0, 0, 0, 0.4)
         ),
 
-        url("/vinteequatro/bg.jpg");
+    url("/vinteequatro/bg.jpg");
     background-position: 50%;
     background-size: 600px;
     padding: 0px;

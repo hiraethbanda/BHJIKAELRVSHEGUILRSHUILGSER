@@ -43,3 +43,12 @@ resposta: "vinteequatro"
 6 - sunshine
 7 - meia noite
 8 - apov
+
+paginas:
+diferente - alice
+gato - a casa
+idontwannaslowdance - who am i 
+quarentaetres - meia noite
+radiacao - sunshine
+terminal - apov
+universo - seus olhos
