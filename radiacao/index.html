@@ -2,15 +2,62 @@
 
 <head>
     <title></title>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/puzzle.css" />
 </head>
 
 <body>
     <div id="wrapper">
-        <div id="main" style="height: 100vh">
-            <p>deu certo!</p>
+        <div id="block">
+            <img src="alice.gif" alt="alice" id="gif" />
+        </div>
+
+        <div id="main">
+            <div id="content">
+                <p>conteudo</p>
+                <div id="link"><a href="/index.html">Retornar</a></div>
+            </div>
+
+            <div id="senhaDiv">
+                <span id="senha">x. senha</span>
+            </div>
         </div>
     </div>
 </body>
-
 </html>
+
+<style>
+
+#wrapper {
+    background-image: url("/radiacao/bg_desktop.jpg");
+    background-position: 40%;
+    background-size: 1850px;
+    padding: 0px;
+    height: 100vh;
+}
+
+#content{
+    text-align: left;
+}
+
+a:link {
+    color: rgb(255, 148, 8);
+}
+
+a:visited {
+    color: rgb(255, 148, 8);
+}
+
+@media all and (max-width: 700px) {
+    #wrapper{
+        background-image: url("/radiacao/bg_mobile.jpg");
+        background-size: 70vh;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 1024px) {
+    #wrapper{
+        background-position: 50%;
+        background-size: 1850px;
+    }
+}
+</style>
