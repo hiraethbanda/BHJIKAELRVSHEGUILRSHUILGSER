@@ -41,6 +41,7 @@ function check() {
 
     const commands = {
         "gato": "miau",
+        "six": "seven",
     };
 
     //repetir coisos
