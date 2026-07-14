@@ -18,6 +18,10 @@ body {
     padding-top: 25px;
 }
 
+#history{
+    color: green;
+}
+
 header {
     margin-bottom: 20px;
 }
@@ -26,10 +30,13 @@ header {
     position: relative;
     display: flex;
     align-items: center;
+    width: 50%;
+    margin-left: 10px;
 }
 
-#userPrefix {
-    margin: 0px 10px 0px 10px;
+#wrapperInput{
+    display: flex;
+    margin-left: 10px;
 }
 
 #userInput {
@@ -38,7 +45,7 @@ header {
     font-size: 20px;
 
     height: 30px;
-    width: 50%;
+    width: 100%;
     background-color: black;
     border: none;
     caret-color: transparent;
@@ -46,6 +53,14 @@ header {
 
 #answerDiv{
     margin: 10px;
+}
+
+#answerPrefix{
+    padding-left: 10px;
+}
+
+#options{
+    margin-left: 30px;
 }
 
 #caret {

@@ -30,21 +30,47 @@ window.addEventListener('DOMContentLoaded', () => {
     if (document.activeElement === userInput) showCaret();
 });
 
-// check
+// ------------------ check
 
 const ans = document.getElementById("answer");
 
-async function check() {
-    const guess = userInput.value;
+function check() {
+    const value = document.getElementById("userInput").value;
+    const history = document.getElementById("history");
+    const wrapperInput = document.getElementById("wrapperInput");
 
-    const res = await fetch("netlify/functions/check.js", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ guess }),
-    });
+    const commands = {
+        "gato": "miau",
+    };
 
-    const data = await res.json();
-    ans.textContent = data.ans;
+    //repetir coisos
+    history.innerHTML += `<div class="historyLine"><span class="prefix">></span> ${value}</div>`;;
+    
+    if (value === "clear"){
+        history.innerHTML = "";
+    }
+    else if (value === "help"){
+        history.innerHTML += `<p id="answerPrefix">
+
+            help: Mostra essa mensagem. <br>
+            color: Troca a cor do texto. <br>
+
+            <span id="options">
+                [R]ed, [W]ite, [G]reen, [P]ink,
+            </span> <br>
+            <span id="options">
+                [B]lue, [LB] Light Blue, [LP] Light Pink
+            </span>
+            </p>`
+    }
+
+    if (value in commands){
+        history.innerHTML += `<div class="answerLine"><span id="answerPrefix">lagarta: </span>${commands[value]}</div>`;
+    }
+
+    document.getElementById("userInput").value = "";
+
+    showCaret();
 }
 
 userInput.addEventListener("keydown", function (event) {
