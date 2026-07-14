@@ -49,6 +49,6 @@ paginas:
     gato - a casa
     idontwannaslowdance - who am i
     quarentaetres - meia noite
-    - radiacao - sunshine
+     . radiacao - sunshine
      . terminal - apov
     universo - seus olhos

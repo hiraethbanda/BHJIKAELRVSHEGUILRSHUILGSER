@@ -40,6 +40,7 @@ function check() {
     const wrapperInput = document.getElementById("wrapperInput");
 
     const commands = {
+        "onde esta voce": "anoitecer",
         "gato": "miau",
         "six": "seven",
     };
@@ -52,7 +53,15 @@ function check() {
     }
     else if (value === "help"){
         history.innerHTML += `<p id="answerPrefix">
+            
+            As respostas aceitas não contém acentos ou pontuação.
+            <br>
 
+            <span id="msgHelp">
+            Boa sorte.
+            </span> 
+            <br><br>
+            
             help: Mostra essa mensagem. <br>
             color: Troca a cor do texto. <br>
 
