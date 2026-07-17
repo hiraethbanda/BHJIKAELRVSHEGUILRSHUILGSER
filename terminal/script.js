@@ -54,24 +54,32 @@ function check() {
     else if (value === "help"){
         history.innerHTML += `<p id="answerPrefix">
             
-            As respostas aceitas não contém acentos ou pontuação.
-            <br>
-
-            <span id="msgHelp">
+            As respostas aceitas não contém acentos, letras maiúsculas ou pontuação. <br>
+            Tente fazer perguntas. <br><br>
             Boa sorte.
-            </span> 
             <br><br>
             
-            help: Mostra essa mensagem. <br>
-            color: Troca a cor do texto. <br>
+            help: Mostra esta mensagem. <br>
+            color: Troca a cor do texto. <br> 
+            <br>
+                <span id="options">
+                    color [opção]
+                </span><br> 
 
-            <span id="options">
-                [R]ed, [W]ite, [G]reen, [P]ink,
-            </span> <br>
-            <span id="options">
-                [B]lue, [LB] Light Blue, [LP] Light Pink
-            </span>
-            </p>`
+                <br>
+
+                <span id="options">
+                    [R]ed, [W]ite, [G]reen, [P]ink,
+                </span><br>
+
+                <span id="options">
+                    [B]lue, [LB] Light Blue, [LP] Light Pink
+                </span><br>
+                
+                <p id="msgHelp">Anoitecer </p>
+                </p>`
+
+        
     }
 
     if (value in commands){

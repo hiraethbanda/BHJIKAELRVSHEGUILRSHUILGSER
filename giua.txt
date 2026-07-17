@@ -3,7 +3,7 @@ alice:
 Resposta: "diferente"
 
 a casa:
-  img da all saits church, daresbury, cheshire. legenda diz: "quem eu sou? onde estou?". 
+  img da all saints church, daresbury, cheshire. legenda diz: "quem eu sou? onde estou?". 
 solucao: descobrir que esta em cheshire e saber que cheshire é o gato
 resposta: "gato"
 
