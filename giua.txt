@@ -8,7 +8,8 @@ solucao: descobrir que esta em cheshire e saber que cheshire é o gato
 resposta: "gato"
 
 who am i:
-  img da borboleta gay. legenda tem uma frase que indica que a musica é who am i; "l.9" (linha 9 de who am i) e "joji" (em katakana). 
+  img da borboleta gay.
+   “Who in the world am I? Ah, that’s the great puzzle!”; "l.9" (linha 9 de who am i) e ジョージ. 
 solucao: ir ate a linha 9 de who am i, pesquisar por "slow dance joji", achar slow dancing in the dark, e ver a linha que é praticamente igual a de who am i.
 resposta: "idontwannaslowdance"
 
@@ -53,10 +54,10 @@ resposta: "vinteequatro"
 8 - apov
 
 paginas:
-    - diferente - alice
+    diferente - alice
     gato - a casa
     idontwannaslowdance - who am i
     quarentaetres - meia noite
-     . radiacao - sunshine
-     . terminal - apov
+    radiacao - sunshine
+    terminal - apov
     universo - seus olhos

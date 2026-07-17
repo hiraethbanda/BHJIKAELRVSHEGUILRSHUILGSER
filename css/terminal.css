@@ -3,13 +3,17 @@
     font-family: "Jetbrains Mono";
 }
 
+body,
+#userInput {
+    font-family: "Jetbrains Mono";
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    background-color: black;
+}
+
 body {
     margin: 0;
     height: 100vh;
-    background-color: black;
-    color: rgb(0, 255, 0);
-    font-size: 20px;
-    font-family: "Jetbrains Mono";
     font-variant-ligatures: none;
 }
 
@@ -18,7 +22,7 @@ body {
     padding-top: 25px;
 }
 
-#history{
+#history {
     color: green;
 }
 
@@ -31,39 +35,42 @@ header {
     display: flex;
     align-items: center;
     width: 50%;
-    margin-left: 10px;
-}
-
-#wrapperInput{
-    display: flex;
-    margin-left: 10px;
 }
 
 #userInput {
-    font-family: "Jetbrains Mono";
-    color: rgb(0, 255, 0);
-    font-size: 20px;
-
     height: 30px;
     width: 100%;
-    background-color: black;
     border: none;
     caret-color: transparent;
 }
 
-#answerDiv{
+#wrapperInput {
+    display: flex;
+}
+
+.historyLine {
+    height: 30px;
+}
+
+#userInputDiv,
+#wrapperInput,
+.historyLine {
+    margin-left: 10px;
+}
+
+#answerDiv {
     margin: 10px;
 }
 
-#answerPrefix{
+#answerPrefix {
     padding-left: 10px;
 }
 
-#options{
+#options {
     margin-left: 30px;
 }
 
-#msgHelp{
+#msgHelp {
     color: rgb(131, 23, 131);
 }
 
@@ -77,11 +84,8 @@ header {
     display: none;
 }
 
-@media all and (max-width: 700px){
-    body{
-        font-size: 17px;
-    }
-    #userInput{
+@media all and (max-width: 700px) {
+    body, #userInput {
         font-size: 17px;
     }
 }
