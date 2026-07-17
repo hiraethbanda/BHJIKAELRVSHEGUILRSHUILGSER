@@ -77,6 +77,15 @@ header {
     display: none;
 }
 
+@media all and (max-width: 700px){
+    body{
+        font-size: 17px;
+    }
+    #userInput{
+        font-size: 17px;
+    }
+}
+
 @keyframes blink {
     50% {
         opacity: 0;

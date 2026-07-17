@@ -13,7 +13,7 @@ solucao: ir ate a linha 9 de who am i, pesquisar por "slow dance joji", achar sl
 resposta: "idontwannaslowdance"
 
 meia noite:
-  img da lua como um relogio apontando pra meia noite. legenda: "e o que mais? 9 192 631 770". 
+  img da lua como um relogio apontando pra meia noite. legenda: "e o que mais? 9 192 631 770".
 solucao: pesquisar o numero no google e achar que é um segundo em relogio atomico. descobrir que o relogio tambem significa tempo e dar o tempo da musica meia noite em segundos.
 resposta: "quarentaetres"
 
@@ -24,6 +24,14 @@ resposta: "radiacao"
 
 apov:
   terminal
+  onde esta voce
+  lagarta: (estou em blababla na direcao em que o sol nasce...)
+    dois coracoes
+    lagarta: onde estamos?
+  futatsu no kokoro
+  lagarta: (...resolvendo assuntos pra outra vida. e voce, onde esta?)
+  distante de tudo
+  lagarta: ultima parte do login
 
 seus olhos:
   img do gerard way com os olhos claramente editados para serem castanhos. musica "the light behind your eyes" do mcr tocando. legenda: "., . . . _".

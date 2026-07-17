@@ -40,9 +40,15 @@ function check() {
     const wrapperInput = document.getElementById("wrapperInput");
 
     const commands = {
-        "onde esta voce": "anoitecer",
-        "gato": "miau",
+        "onde esta voce": "Estou em 30°27'56.3'N 130°29'50.1'E, <br> na direção onde o sol nasce...",
+        "dois coracoes": "Onde estamos?",
+        "futatsu no kokoro": "...revivendo assuntos pra outra vida. E você? Onde está?",
+        "distante de tudo": "https://youtube.com/[url]",
         "six": "seven",
+        "gato": "miau",
+        "bora": "bill",
+        "ai": "que delicia cara",
+        "pudim": "https://pudim.com.br",
     };
 
     //repetir coisos
@@ -77,9 +83,7 @@ function check() {
                 </span><br>
                 
                 <p id="msgHelp">Anoitecer </p>
-                </p>`
-
-        
+                </p>`        
     }
 
     if (value in commands){
