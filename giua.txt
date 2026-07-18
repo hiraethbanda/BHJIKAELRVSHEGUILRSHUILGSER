@@ -44,6 +44,7 @@ rdc:
 solucao: pegar o numero de versos que a letra de rdc tem.
 resposta: "vinteequatro"
 
+ordem dos posts:
 1 - alice
 2 - rdc
 3 - seus olhos

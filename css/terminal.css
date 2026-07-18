@@ -66,6 +66,11 @@ header {
     padding-left: 10px;
 }
 
+.answerLine{
+    margin-bottom: 6px;
+    margin-left: 35px;
+}
+
 #options {
     margin-left: 30px;
 }
@@ -87,6 +92,9 @@ header {
 @media all and (max-width: 700px) {
     body, #userInput {
         font-size: 17px;
+    }
+    .answerLine{
+        margin-left: 30px;
     }
 }
 
