@@ -1,40 +1,43 @@
 // caret
-// completamente copiado do claude
+// completamente copiado do claude / gpt
+// sou eu sou uma bichinha
 
-const userInput = document.getElementById('userInput');
-const caret = document.getElementById('caret');
+const userInput = document.getElementById("userInput");
+const caret = document.getElementById("caret");
 
-const measurer = document.createElement('span');
+const measurer = document.createElement("span");
 measurer.style.font = getComputedStyle(userInput).font;
-measurer.style.visibility = 'hidden';
-measurer.style.position = 'absolute';
-measurer.style.whiteSpace = 'pre';
+measurer.style.visibility = "hidden";
+measurer.style.position = "absolute";
+measurer.style.whiteSpace = "pre";
 document.body.appendChild(measurer);
 
+measurer.textContent = "M";
+const charWidth = measurer.getBoundingClientRect().width;
+
 function updateCaretPosition() {
-    measurer.textContent = userInput.value;
-    const textWidth = measurer.getBoundingClientRect().width;
-    caret.style.left = `${userInput.offsetLeft + textWidth + 5}px`;
+    caret.style.left = `${userInput.offsetLeft + userInput.value.length * charWidth + 5}px`;
 }
 
 function showCaret() {
-    caret.style.display = 'inline';
+    caret.style.display = "inline";
     updateCaretPosition();
 }
 
-userInput.addEventListener('input', updateCaretPosition);
-userInput.addEventListener('focus', showCaret);
-userInput.addEventListener('blur', () => caret.style.display = 'none');
+userInput.addEventListener("input", updateCaretPosition);
+userInput.addEventListener("focus", showCaret);
+userInput.addEventListener("blur", () => caret.style.display = "none");
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
     if (document.activeElement === userInput) showCaret();
 });
 
-// ------------------ check
+// check
 
 const ans = document.getElementById("answer");
 
 function check() {
+
     let value = document.getElementById("userInput").value;
     const history = document.getElementById("history");
     const wrapperInput = document.getElementById("wrapperInput");
