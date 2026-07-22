@@ -5,7 +5,7 @@
 
 body,
 #userInput {
-    font-family: "Jetbrains Mono";
+    font-family: "Jetbrains Mono", monospace;
     color: rgb(0, 255, 0);
     font-size: 20px;
     background-color: black;
@@ -82,7 +82,7 @@ header {
 
 #caret {
     position: absolute;
-    font-family: "Jetbrains Mono";
+    font-family: "Jetbrains Mono", monospace;
     color: rgb(0, 255, 0);
     font-size: 22px;
     pointer-events: none;
