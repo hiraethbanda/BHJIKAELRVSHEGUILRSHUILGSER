@@ -20,7 +20,9 @@ function updateCaretPosition() {
     if (isMobile){
         caret.style.left = `${userInput.offsetLeft + userInput.value.length * charWidth + 8}px`;
     }
-    caret.style.left = `${userInput.offsetLeft + userInput.value.length * charWidth + 5}px`;
+    else{
+        caret.style.left = `${userInput.offsetLeft + userInput.value.length * charWidth + 5}px`;
+    }
 }
 
 function showCaret() {
