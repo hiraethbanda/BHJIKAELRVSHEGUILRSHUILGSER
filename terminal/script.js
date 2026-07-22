@@ -17,12 +17,14 @@ const charWidth = measurer.getBoundingClientRect().width;
 
 function updateCaretPosition() {
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    if (isMobile){
-        caret.style.left = `${userInput.offsetLeft + userInput.value.length * charWidth + 8}px`;
-    }
-    else{
-        caret.style.left = `${userInput.offsetLeft + userInput.value.length * charWidth + 5}px`;
-    }
+    const offset = isMobile ? 8 : 5;
+
+    caret.style.left = `${
+        userInput.offsetLeft +
+        userInput.value.length * charWidth -
+        userInput.scrollLeft +
+        offset
+    }px`;
 }
 
 function showCaret() {
