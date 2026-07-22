@@ -34,7 +34,7 @@ header {
     position: relative;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 90%;
 }
 
 #userInput {
@@ -42,6 +42,7 @@ header {
     width: 100%;
     border: none;
     caret-color: transparent;
+    padding: 0;
 }
 
 #wrapperInput {
@@ -50,13 +51,19 @@ header {
 }
 
 .historyLine {
+    display: flex;
+    align-items: center;
     height: 30px;
 }
 
-#userInputDiv,
 #wrapperInput,
 .historyLine {
     margin-left: 10px;
+}
+
+#userInputDiv,
+.content{
+    margin-left: 1.5vh;
 }
 
 #answerDiv {

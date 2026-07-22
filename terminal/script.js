@@ -69,11 +69,7 @@ function check() {
     }
 
     // add
-    history.innerHTML +=
-        `<div class="historyLine">
-        <span class="prefix">></span>
-        <span class="content">${value}</span>
-      </div>`;;
+    history.innerHTML += `<div class="historyLine"><span class="prefix">></span><span class="content">${value}</span></div>`;;
 
     // casos especiais
     if (value === "clear") {
@@ -131,9 +127,6 @@ userInput.addEventListener("keydown", (event) => {
 });
 
 document.body.addEventListener('click', () => {
-    // const end = userInput.value.length;
-    // userInput.setSelectionRange(end, end);
-    
     userInput.focus();
     setTimeout(updateCaretPosition, 0);
 });
