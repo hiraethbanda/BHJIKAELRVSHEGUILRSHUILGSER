@@ -131,8 +131,9 @@ userInput.addEventListener("keydown", (event) => {
 });
 
 document.body.addEventListener('click', () => {
-    const end = userInput.value.length;
-    userInput.setSelectionRange(end, end);
-
+    // const end = userInput.value.length;
+    // userInput.setSelectionRange(end, end);
+    
     userInput.focus();
+    setTimeout(updateCaretPosition, 0);
 });
