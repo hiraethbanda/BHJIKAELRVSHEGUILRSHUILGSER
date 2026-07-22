@@ -59,18 +59,18 @@ function check() {
 
     // add
     history.innerHTML +=
-     `<div class="historyLine">
+        `<div class="historyLine">
         <span class="prefix">></span>
         <span class="content">${value}</span>
       </div>`;;
-    
+
     // casos especiais
-    if (value === "clear"){
+    if (value === "clear") {
         history.innerHTML = "";
     }
-    else if (value === "help"){
-        history.innerHTML += 
-        `<p id="answerPrefix">
+    else if (value === "help") {
+        history.innerHTML +=
+            `<p id="answerPrefix">
             As respostas aceitas não contém acentos, letras maiúsculas ou pontuação. <br>
             Tente fazer perguntas. <br><br>
             Boa sorte.
@@ -93,18 +93,18 @@ function check() {
     }
 
     // resposta
-    if (value in commands){
-        history.innerHTML += 
-        `<div class="answerLine">
+    if (value in commands) {
+        history.innerHTML +=
+            `<div class="answerLine">
             <span id="answerPrefix">
                 lagarta: 
             </span>
                 ${commands[value]}
         </div>`;
     }
-    else if (value in commandsTroll){
-        history.innerHTML += 
-        `<div class="answerLine">
+    else if (value in commandsTroll) {
+        history.innerHTML +=
+            `<div class="answerLine">
                 ${commandsTroll[value]}
         </div>`;
     }
@@ -113,13 +113,12 @@ function check() {
     showCaret();
 }
 
-userInput.addEventListener("keydown", function (event) {
-    if (event.code === "Enter") {
+userInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
         check();
     }
+});
 
-    // window.scrollTo({
-    //     top: document.body.scrollHeight,
-    //     behavior: "instant"
-    // });
+document.body.addEventListener('click', () => {
+    input.focus();
 });
