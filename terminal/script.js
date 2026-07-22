@@ -120,5 +120,5 @@ userInput.addEventListener("keydown", (event) => {
 });
 
 document.body.addEventListener('click', () => {
-    input.focus();
+    userInput.focus();
 });
