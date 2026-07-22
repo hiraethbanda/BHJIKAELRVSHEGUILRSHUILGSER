@@ -17,3 +17,4 @@ FAZER PAGINAS PRINCIPAIS
     universo
 
 terminar terminal
+    color cmd
