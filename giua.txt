@@ -45,14 +45,14 @@ solucao: pegar o numero de versos que a letra de rdc tem.
 resposta: "vinteequatro"
 
 ordem dos posts:
-1 - alice
-2 - rdc
-3 - seus olhos
-4 - a casa
-5 - who am i 
-6 - sunshine
-7 - meia noite
-8 - apov
+1 - alice - user
+2 - rdc - b
+3 - seus olhos - r
+4 - a casa - i
+5 - who am i - g
+6 - sunshine - i
+7 - meia noite - d
+8 - apov - 12
 
 paginas:
     diferente - alice
