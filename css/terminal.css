@@ -79,6 +79,10 @@ header {
     color: rgb(131, 23, 131);
 }
 
+#extraSpace{
+    height: 50dvh;
+}
+
 #caret {
     position: absolute;
     font-family: "Jetbrains Mono";
