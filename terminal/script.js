@@ -118,8 +118,8 @@ userInput.addEventListener("keydown", function (event) {
         check();
     }
 
-    window.scrollTo({
-        top: document.body.scrollHeight,
-        behavior: "instant"
-    });
+    // window.scrollTo({
+    //     top: document.body.scrollHeight,
+    //     behavior: "instant"
+    // });
 });
