@@ -1,6 +1,6 @@
 // caret
 // completamente copiado do claude / gpt
-// sou eu sou uma bichinha
+// sim eu sou uma bichinha
 
 const userInput = document.getElementById("userInput");
 const caret = document.getElementById("caret");
@@ -42,13 +42,15 @@ window.addEventListener("DOMContentLoaded", () => {
 const ans = document.getElementById("answer");
 
 function check() {
-
     let value = document.getElementById("userInput").value;
     const history = document.getElementById("history");
     const wrapperInput = document.getElementById("wrapperInput");
 
-    //sanitizar input
-    value = value.replace(/[<>/'"\s+]/g, "");
+    function sanitizar(){
+        value = value.toLowerCase();
+        value = value.replace(/[^a-z]/g, "");
+    }
+    sanitizar();
 
     const commands = {
         "ondeestavoce": "Estou em 30°27'56.3'N 130°29'50.1'E, <br> na direção em que o sol nasce...",
