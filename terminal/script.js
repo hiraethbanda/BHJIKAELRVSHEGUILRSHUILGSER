@@ -16,14 +16,11 @@ measurer.textContent = "M";
 const charWidth = measurer.getBoundingClientRect().width;
 
 function updateCaretPosition() {
-    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    const offset = isMobile ? 8 : 5;
-
     caret.style.left = `${
         userInput.offsetLeft +
         userInput.value.length * charWidth -
         userInput.scrollLeft +
-        offset
+        2
     }px`;
 }
 
