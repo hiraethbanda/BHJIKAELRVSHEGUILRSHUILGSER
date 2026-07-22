@@ -46,6 +46,7 @@ header {
 
 #wrapperInput {
     display: flex;
+    align-items: center;
 }
 
 .historyLine {
@@ -60,10 +61,6 @@ header {
 
 #answerDiv {
     margin: 10px;
-}
-
-#answerPrefix {
-    padding-left: 10px;
 }
 
 .answerLine{
