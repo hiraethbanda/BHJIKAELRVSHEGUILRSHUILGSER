@@ -48,6 +48,6 @@ a:visited {
 
 @media all and (max-width: 600px) {
     body {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
