@@ -1,7 +1,3 @@
-fazer paginas trolls
-
-ATUALIZAR PAGINA TUTORIAL
-
 
 FAZER PAGINAS PRINCIPAIS
 EXTRAS:
@@ -9,10 +5,11 @@ EXTRAS:
     jefferson airplane - white rabbit
 
 pensar no design das paginas de resposta
-    gato
-    idontwannaslowdance
-    quarentaetres
-    universo
+    universo (seus olhos)
+    gato (a casa)
+    idontwannaslowdance (who am i)
+    quarentaetres (meia noite)
 
+fazer paginas trolls
 terminar terminal
     color cmd
